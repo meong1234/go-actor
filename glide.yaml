@@ -1,0 +1,7 @@
+package: golang_actor
+import:
+- package: github.com/AsynkronIT/protoactor-go
+  version: 34599562123df2776689e9f72c04300b1165ba74
+- package: github.com/AsynkronIT/goconsole
+  version: bfa12eebf7161a928e20d11a627cc689e99e2e50
+- package: github.com/serialx/hashring

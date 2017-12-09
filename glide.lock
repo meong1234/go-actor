@@ -1,0 +1,44 @@
+hash: c328f2c34932457b868415fcc4dd06c64c701c19d8b7cd932d973112d5008a97
+updated: 2017-12-09T19:23:19.937005347+07:00
+imports:
+- name: github.com/AsynkronIT/goconsole
+  version: bfa12eebf7161a928e20d11a627cc689e99e2e50
+- name: github.com/AsynkronIT/protoactor-go
+  version: 34599562123df2776689e9f72c04300b1165ba74
+  subpackages:
+  - actor
+  - eventstream
+  - internal/queue/goring
+  - internal/queue/mpsc
+  - log
+  - mailbox
+  - persistence
+  - router
+- name: github.com/emirpasic/gods
+  version: 8a038b010338d247eee30f8b569dbba08bfb1ffa
+  subpackages:
+  - containers
+  - lists
+  - lists/singlylinkedlist
+  - stacks
+  - stacks/linkedliststack
+  - utils
+- name: github.com/gogo/protobuf
+  version: 41168f6614b7bb144818ec8967b8c702705df564
+  subpackages:
+  - gogoproto
+  - proto
+  - protoc-gen-gogo/descriptor
+- name: github.com/golang/protobuf
+  version: 6a1fa9404c0aebf36c879bc50152edcc953910d2
+  subpackages:
+  - proto
+- name: github.com/orcaman/concurrent-map
+  version: d4c23bd0e01134806215ffe65ba3fd22ec6721f7
+- name: github.com/serialx/hashring
+  version: 6a9381c5a83e926b9f1fd907395a581e69747e96
+- name: github.com/Workiva/go-datastructures
+  version: 9937fb49a4885795838b31eef9cc237820f0dcff
+  subpackages:
+  - queue
+testImports: []
